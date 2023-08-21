@@ -3,7 +3,7 @@
 :root {
     --fonte-titulo: 'Montserrat', sans-serif;
     --fonte-normal: 'Open Sans', sans-serif;
-    --primary-color: #0F1433;
+    --primary-color: #000;
     --secondy-color: #fff;
     --gap: 3rem;
 }
@@ -26,6 +26,7 @@ header input, label {
 body {
     font-family: var(--fonte-normal);
     line-height: 1.5;
+    background-color: #222222;
 }
 
 .main-content {
@@ -40,7 +41,7 @@ body .full-width {
 
 aside.menu {
     width: 100%;
-    background-color: var(--secondy-color);
+    background-color: var(--primary-color);
     position: fixed;
     z-index: 1;
 }
@@ -63,7 +64,7 @@ nav ul {
 
 nav ul a {
     margin-left: 1.5rem;
-    color: var(--primary-color);
+    color: var(--secondy-color);
     text-decoration: none;
     font-size: 1.5rem;
     position: relative;
@@ -86,12 +87,10 @@ nav ul a:hover::after {
     left: 0%;
 }
 
-.menu h1 a {
-    color: var(--primary-color);
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
+.menu h1 img {
+    width: 7rem;
+    height: auto;
+    padding-top: 1rem;
 }
 
 .menu-space {
@@ -99,9 +98,7 @@ nav ul a:hover::after {
 }
 
 .main-bg {
-    background-image: url('../img/main-bg.svg');
-    background-size: cover;
-    background-position: center center;
+    background-color: #222222;
     color: var(--secondy-color);
 }
 
