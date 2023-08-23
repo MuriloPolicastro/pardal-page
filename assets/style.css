@@ -403,6 +403,10 @@ transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
     font-size: 2rem;
 }
 
+#contact .intro-img img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+}
+
 footer {
     text-align: center;
     font-size: 1.2rem;
