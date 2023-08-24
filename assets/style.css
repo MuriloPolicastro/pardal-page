@@ -293,7 +293,7 @@ nav ul a:hover::after {
 }
 
 .gallery-img img:hover {
-transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
 .recent-job {
